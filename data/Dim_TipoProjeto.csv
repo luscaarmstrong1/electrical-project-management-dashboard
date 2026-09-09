@@ -1,0 +1,17 @@
+﻿ID_TipoProjeto,Tipo_Projeto,Categoria_Engenharia,Nivel_Tensao_Padrao
+TIPO01,Sistema Fotovoltaico,Geração distribuída,BT
+TIPO02,Microgeração Distribuída,Geração distribuída,BT
+TIPO03,Minigeração Distribuída,Geração distribuída,MT
+TIPO04,Ampliação de Geração,Geração distribuída,MT
+TIPO05,Entrada de Energia BT,Entrada de energia,BT
+TIPO06,Entrada de Energia MT,Entrada de energia,MT
+TIPO07,Subestação,Infraestrutura elétrica,MT
+TIPO08,Adequação Elétrica,Infraestrutura elétrica,BT
+TIPO09,Projeto de Proteção,Proteção e estudos,MT
+TIPO10,Estudo de Coordenação e Seletividade,Proteção e estudos,MT
+TIPO11,Eletroposto,Mobilidade elétrica,BT
+TIPO12,Eficiência Energética,Energia e operações,BT
+TIPO13,Automação Industrial,Automação,BT
+TIPO14,Migração Mercado Livre,Energia e operações,MT
+TIPO15,Gestão de Energia,Energia e operações,BT
+TIPO16,Infraestrutura Elétrica Industrial,Infraestrutura elétrica,MT

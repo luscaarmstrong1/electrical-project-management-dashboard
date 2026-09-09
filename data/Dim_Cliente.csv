@@ -1,0 +1,26 @@
+﻿ID_Cliente,Cliente,Segmento
+CLI001,Indústria Alfa,Industrial
+CLI002,Comercial Beta,Comercial
+CLI003,Grupo Horizonte,Holding
+CLI004,Fazenda Aurora,Agro
+CLI005,Centro Logístico Delta,Logística
+CLI006,Condomínio Solar Norte,Residencial coletivo
+CLI007,Hospital Vera Cruz,Saúde
+CLI008,Rede Varejo Prisma,Varejo
+CLI009,Metalúrgica Orion,Industrial
+CLI010,Agropecuária Vale Verde,Agro
+CLI011,Shopping Estação,Comercial
+CLI012,Cooperativa Campo Sul,Agro
+CLI013,Frigorifico Atlas,Industrial
+CLI014,Universidade Nova Energia,Educação
+CLI015,Porto Seco Leste,Logística
+CLI016,Mineracao Serra Azul,Mineração
+CLI017,Têxtil Primavera,Industrial
+CLI018,Laticínios Boa Fonte,Alimentos
+CLI019,Data Center Sigma,Tecnologia
+CLI020,Usina BioSol,Energia
+CLI021,Terminal Rodoviário Central,Transporte
+CLI022,Cerâmica Horizonte,Industrial
+CLI023,Laboratorio Innova,Serviços
+CLI024,Hotel Mirante,Hotelaria
+CLI025,Aeroporto Regional,Transporte

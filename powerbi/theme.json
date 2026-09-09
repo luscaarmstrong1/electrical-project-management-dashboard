@@ -1,0 +1,14 @@
+{
+  "name": "Gestão Projetos Elétricos",
+  "dataColors": [
+    "#12372A",
+    "#2F6B8F",
+    "#C8A24A",
+    "#B7791F",
+    "#B42318",
+    "#7A8691"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#20252B",
+  "tableAccent": "#12372A"
+}

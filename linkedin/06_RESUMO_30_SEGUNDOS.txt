@@ -1,0 +1,1 @@
+Projeto de BI para gestão de projetos elétricos. Usei Python para gerar e validar uma carteira sintética com 200 projetos, 93,0 MW e R$ 412,8 mi. A entrega inclui Excel, DAX, Power Query, mockups Power BI, documentação e demo web com filtros.

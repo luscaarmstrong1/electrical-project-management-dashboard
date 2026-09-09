@@ -1,0 +1,164 @@
+﻿ID_Pendencia,ID_Projeto,Categoria_Pendencia,Descricao_Pendencia,Data_Abertura,Data_Resolucao,Status_Pendencia,Dias_Em_Aberto,Impacta_Prazo
+PEND0001,PROJ0003,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-10-23,,Aberta,0,True
+PEND0002,PROJ0003,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-10-30,,Aberta,0,False
+PEND0003,PROJ0003,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-10-21,,Em tratativa,0,True
+PEND0004,PROJ0004,Execução,Pendência sintética para demonstração de gestão operacional,2026-08-28,,Aberta,11,True
+PEND0005,PROJ0004,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-09-01,,Em tratativa,7,False
+PEND0006,PROJ0005,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-05-29,,Em tratativa,102,True
+PEND0007,PROJ0005,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-06-28,,Aberta,72,False
+PEND0008,PROJ0007,Execução,Pendência sintética para demonstração de gestão operacional,2026-10-19,,Aberta,0,True
+PEND0009,PROJ0007,Execução,Pendência sintética para demonstração de gestão operacional,2026-08-15,,Em tratativa,24,False
+PEND0010,PROJ0007,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-10-07,,Aberta,0,True
+PEND0011,PROJ0007,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-10-01,,Em tratativa,0,True
+PEND0012,PROJ0010,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-08-16,2026-09-02,Resolvida,17,True
+PEND0013,PROJ0010,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-08-28,,Aberta,11,True
+PEND0014,PROJ0010,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-11-02,,Em tratativa,0,True
+PEND0015,PROJ0011,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-05-11,,Em tratativa,120,False
+PEND0016,PROJ0011,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-06-22,,Em tratativa,78,False
+PEND0017,PROJ0012,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-05-07,,Em tratativa,124,True
+PEND0018,PROJ0012,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-06-26,,Aberta,74,False
+PEND0019,PROJ0013,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-07-01,,Em tratativa,69,True
+PEND0020,PROJ0013,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-06-04,,Em tratativa,96,True
+PEND0021,PROJ0013,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-07-07,,Em tratativa,63,False
+PEND0022,PROJ0014,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-10-14,,Em tratativa,0,False
+PEND0023,PROJ0018,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-06-30,,Aberta,70,True
+PEND0024,PROJ0018,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-09-04,,Aberta,4,True
+PEND0025,PROJ0019,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-09-30,,Aberta,0,True
+PEND0026,PROJ0020,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-11-15,,Em tratativa,0,True
+PEND0027,PROJ0020,Outros,Pendência sintética para demonstração de gestão operacional,2026-09-20,2026-09-22,Resolvida,2,False
+PEND0028,PROJ0032,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-05-22,,Em tratativa,109,True
+PEND0029,PROJ0032,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-04-02,2026-04-18,Resolvida,16,False
+PEND0030,PROJ0033,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-08-18,,Aberta,21,True
+PEND0031,PROJ0033,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-07-27,,Em tratativa,43,False
+PEND0032,PROJ0033,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-09-12,,Aberta,0,False
+PEND0033,PROJ0035,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-05-24,2026-05-26,Resolvida,2,False
+PEND0034,PROJ0035,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-06-09,2026-07-02,Resolvida,23,True
+PEND0035,PROJ0037,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-03-20,2026-04-12,Resolvida,23,True
+PEND0036,PROJ0041,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-08-17,2026-08-20,Resolvida,3,True
+PEND0037,PROJ0041,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-08-14,2026-08-20,Resolvida,6,False
+PEND0038,PROJ0041,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-08-05,2026-08-16,Resolvida,11,True
+PEND0039,PROJ0042,Outros,Pendência sintética para demonstração de gestão operacional,2026-05-16,2026-06-03,Resolvida,18,True
+PEND0040,PROJ0042,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-05-05,,Aberta,126,False
+PEND0041,PROJ0042,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-05-02,2026-05-12,Resolvida,10,True
+PEND0042,PROJ0042,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-06-07,2026-06-17,Resolvida,10,True
+PEND0043,PROJ0044,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-02-15,,Aberta,205,False
+PEND0044,PROJ0050,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-06-25,,Aberta,75,False
+PEND0045,PROJ0051,Execução,Pendência sintética para demonstração de gestão operacional,2026-06-05,2026-06-12,Resolvida,7,True
+PEND0046,PROJ0051,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-06-17,2026-07-04,Resolvida,17,True
+PEND0047,PROJ0051,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-05-28,2026-06-11,Resolvida,14,True
+PEND0048,PROJ0051,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-08-05,,Aberta,34,True
+PEND0049,PROJ0055,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-09-02,2026-09-18,Resolvida,16,True
+PEND0050,PROJ0058,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-06-19,,Em tratativa,81,False
+PEND0051,PROJ0058,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-04-27,,Aberta,134,False
+PEND0052,PROJ0058,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-04-28,,Aberta,133,False
+PEND0053,PROJ0070,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-09-21,,Aberta,0,True
+PEND0054,PROJ0070,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-09-01,2026-09-25,Resolvida,24,False
+PEND0055,PROJ0072,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-10-20,,Em tratativa,0,True
+PEND0056,PROJ0073,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-06-15,,Aberta,85,False
+PEND0057,PROJ0073,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-04-14,2026-04-18,Resolvida,4,False
+PEND0058,PROJ0073,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-06-18,2026-07-12,Resolvida,24,True
+PEND0059,PROJ0073,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-06-15,,Aberta,85,True
+PEND0060,PROJ0075,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-08-25,2026-09-07,Resolvida,13,True
+PEND0061,PROJ0075,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-08-26,2026-08-29,Resolvida,3,True
+PEND0062,PROJ0075,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-08-01,,Em tratativa,38,True
+PEND0063,PROJ0077,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-10-19,,Em tratativa,0,True
+PEND0064,PROJ0077,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-09-01,,Aberta,7,True
+PEND0065,PROJ0077,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-11-10,,Aberta,0,True
+PEND0066,PROJ0077,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-10-14,,Em tratativa,0,True
+PEND0067,PROJ0078,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-11-08,,Em tratativa,0,True
+PEND0068,PROJ0078,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-09-22,,Em tratativa,0,True
+PEND0069,PROJ0078,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-09-22,,Em tratativa,0,True
+PEND0070,PROJ0079,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-07-03,2026-07-06,Resolvida,3,True
+PEND0071,PROJ0079,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-07-02,,Aberta,68,True
+PEND0072,PROJ0080,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-05-18,,Em tratativa,113,True
+PEND0073,PROJ0080,Execução,Pendência sintética para demonstração de gestão operacional,2026-08-03,2026-08-16,Resolvida,13,True
+PEND0074,PROJ0080,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-07-10,,Aberta,60,True
+PEND0075,PROJ0081,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-12-02,,Em tratativa,0,True
+PEND0076,PROJ0081,Execução,Pendência sintética para demonstração de gestão operacional,2026-10-26,,Em tratativa,0,False
+PEND0077,PROJ0081,Execução,Pendência sintética para demonstração de gestão operacional,2026-11-20,,Aberta,0,True
+PEND0078,PROJ0086,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-09-15,2026-09-23,Resolvida,8,False
+PEND0079,PROJ0086,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-10-07,,Aberta,0,True
+PEND0080,PROJ0086,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-08-22,2026-09-05,Resolvida,14,False
+PEND0081,PROJ0086,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-10-06,2026-10-31,Resolvida,25,True
+PEND0082,PROJ0090,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-12-02,,Aberta,0,False
+PEND0083,PROJ0091,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-09-01,,Aberta,7,True
+PEND0084,PROJ0091,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-07-15,,Aberta,55,False
+PEND0085,PROJ0097,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-10-23,,Aberta,0,True
+PEND0086,PROJ0097,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-09-09,,Em tratativa,0,True
+PEND0087,PROJ0098,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-08-24,,Aberta,15,False
+PEND0088,PROJ0098,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-07-15,,Aberta,55,True
+PEND0089,PROJ0098,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-09-24,2026-10-08,Resolvida,14,True
+PEND0090,PROJ0098,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-09-30,,Em tratativa,0,True
+PEND0091,PROJ0102,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-08-26,,Aberta,13,True
+PEND0092,PROJ0102,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-09-14,,Aberta,0,True
+PEND0093,PROJ0102,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-07-03,,Em tratativa,67,True
+PEND0094,PROJ0102,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-07-23,,Aberta,47,False
+PEND0095,PROJ0104,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-06-16,,Aberta,84,True
+PEND0096,PROJ0104,Execução,Pendência sintética para demonstração de gestão operacional,2026-05-25,2026-06-12,Resolvida,18,True
+PEND0097,PROJ0107,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-08-19,,Em tratativa,20,True
+PEND0098,PROJ0107,Execução,Pendência sintética para demonstração de gestão operacional,2026-11-04,2026-11-20,Resolvida,16,True
+PEND0099,PROJ0107,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-10-17,2026-11-06,Resolvida,20,False
+PEND0100,PROJ0107,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-09-06,,Aberta,2,True
+PEND0101,PROJ0113,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-05-13,,Aberta,118,False
+PEND0102,PROJ0113,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-04-25,,Em tratativa,136,True
+PEND0103,PROJ0113,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-06-27,,Aberta,73,True
+PEND0104,PROJ0113,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-06-02,,Aberta,98,True
+PEND0105,PROJ0116,Execução,Pendência sintética para demonstração de gestão operacional,2026-07-19,,Em tratativa,51,True
+PEND0106,PROJ0116,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-07-29,,Aberta,41,True
+PEND0107,PROJ0116,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-09-13,2026-09-22,Resolvida,9,True
+PEND0108,PROJ0132,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-08-07,,Aberta,32,False
+PEND0109,PROJ0133,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-09-19,,Aberta,0,True
+PEND0110,PROJ0133,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-11-23,,Aberta,0,False
+PEND0111,PROJ0134,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-04-15,,Em tratativa,146,True
+PEND0112,PROJ0136,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-08-16,,Aberta,23,False
+PEND0113,PROJ0136,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-07-05,,Aberta,65,True
+PEND0114,PROJ0136,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-08-07,,Aberta,32,True
+PEND0115,PROJ0136,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-07-16,2026-08-10,Resolvida,25,False
+PEND0116,PROJ0138,Outros,Pendência sintética para demonstração de gestão operacional,2026-12-01,,Em tratativa,0,False
+PEND0117,PROJ0138,Outros,Pendência sintética para demonstração de gestão operacional,2026-11-03,,Aberta,0,True
+PEND0118,PROJ0141,Outros,Pendência sintética para demonstração de gestão operacional,2027-02-08,,Aberta,0,True
+PEND0119,PROJ0144,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-08-26,,Aberta,13,True
+PEND0120,PROJ0144,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-08-22,,Em tratativa,17,False
+PEND0121,PROJ0144,Outros,Pendência sintética para demonstração de gestão operacional,2026-10-11,2026-10-29,Resolvida,18,True
+PEND0122,PROJ0144,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-10-04,2026-10-27,Resolvida,23,True
+PEND0123,PROJ0145,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-10-18,2026-11-12,Resolvida,25,False
+PEND0124,PROJ0146,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-12-07,,Aberta,0,False
+PEND0125,PROJ0146,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-10-08,,Em tratativa,0,True
+PEND0126,PROJ0146,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-11-01,,Aberta,0,True
+PEND0127,PROJ0146,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-09-12,,Aberta,0,True
+PEND0128,PROJ0147,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-07-12,,Aberta,58,True
+PEND0129,PROJ0147,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-06-17,,Aberta,83,True
+PEND0130,PROJ0147,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-07-09,,Em tratativa,61,True
+PEND0131,PROJ0148,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-09-20,2026-10-08,Resolvida,18,True
+PEND0132,PROJ0148,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-11-11,,Aberta,0,False
+PEND0133,PROJ0153,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-10-14,,Aberta,0,True
+PEND0134,PROJ0154,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-08-16,,Aberta,23,False
+PEND0135,PROJ0159,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-06-15,,Aberta,85,True
+PEND0136,PROJ0159,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-08-09,2026-08-14,Resolvida,5,True
+PEND0137,PROJ0159,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-08-13,,Em tratativa,26,True
+PEND0138,PROJ0161,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-04-12,2026-05-07,Resolvida,25,False
+PEND0139,PROJ0165,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-08-20,,Aberta,19,True
+PEND0140,PROJ0165,Vistoria,Pendência sintética para demonstração de gestão operacional,2026-07-07,,Em tratativa,63,False
+PEND0141,PROJ0165,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-07-20,,Aberta,50,False
+PEND0142,PROJ0168,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-10-05,,Aberta,0,False
+PEND0143,PROJ0168,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-10-24,,Aberta,0,False
+PEND0144,PROJ0171,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-07-27,2026-08-17,Resolvida,21,False
+PEND0145,PROJ0175,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-09-10,2026-09-27,Resolvida,17,True
+PEND0146,PROJ0175,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-09-16,,Em tratativa,0,True
+PEND0147,PROJ0178,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-05-08,,Aberta,123,True
+PEND0148,PROJ0178,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-04-28,,Aberta,133,True
+PEND0149,PROJ0178,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-03-26,,Aberta,166,True
+PEND0150,PROJ0178,Informação técnica,Pendência sintética para demonstração de gestão operacional,2026-05-05,,Em tratativa,126,True
+PEND0151,PROJ0181,Pagamento,Pendência sintética para demonstração de gestão operacional,2026-08-23,,Aberta,16,True
+PEND0152,PROJ0181,Outros,Pendência sintética para demonstração de gestão operacional,2026-09-10,,Aberta,0,True
+PEND0153,PROJ0181,Alteração de projeto,Pendência sintética para demonstração de gestão operacional,2026-07-21,,Aberta,49,False
+PEND0154,PROJ0181,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-09-10,2026-09-29,Resolvida,19,False
+PEND0155,PROJ0183,Execução,Pendência sintética para demonstração de gestão operacional,2026-09-29,,Aberta,0,False
+PEND0156,PROJ0184,Equipamento,Pendência sintética para demonstração de gestão operacional,2026-07-13,2026-07-19,Resolvida,6,True
+PEND0157,PROJ0184,Execução,Pendência sintética para demonstração de gestão operacional,2026-07-11,2026-07-23,Resolvida,12,False
+PEND0158,PROJ0184,Aprovação interna,Pendência sintética para demonstração de gestão operacional,2026-08-23,,Aberta,16,False
+PEND0159,PROJ0185,Execução,Pendência sintética para demonstração de gestão operacional,2026-06-27,,Aberta,73,True
+PEND0160,PROJ0185,Outros,Pendência sintética para demonstração de gestão operacional,2026-06-04,2026-06-26,Resolvida,22,False
+PEND0161,PROJ0194,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-06-20,,Em tratativa,80,True
+PEND0162,PROJ0194,Concessionária,Pendência sintética para demonstração de gestão operacional,2026-07-13,,Em tratativa,57,False
+PEND0163,PROJ0194,Documento do cliente,Pendência sintética para demonstração de gestão operacional,2026-07-09,,Aberta,61,False

@@ -1,0 +1,16 @@
+Power BI
+DAX
+Power Query
+Python
+pandas
+openpyxl
+Excel
+Modelagem dimensional
+Modelo estrela
+Engenharia elétrica
+Gestão de projetos
+Análise de prazos
+Análise financeira
+Dashboards executivos
+GitHub Pages
+Documentação técnica

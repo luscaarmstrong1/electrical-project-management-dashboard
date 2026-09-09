@@ -1,0 +1,11 @@
+﻿ID_Localidade,Estado,Municipio,Regiao,Peso_Carteira
+LOC01,SP,São Paulo,Sudeste,0.34
+LOC02,MG,Belo Horizonte,Sudeste,0.22
+LOC03,ES,Vitória,Sudeste,0.12
+LOC04,GO,Goiânia,Centro-Oeste,0.07
+LOC05,MT,Cuiabá,Centro-Oeste,0.05
+LOC06,MS,Campo Grande,Centro-Oeste,0.04
+LOC07,PR,Curitiba,Sul,0.05
+LOC08,SC,Joinville,Sul,0.04
+LOC09,RJ,Rio de Janeiro,Sudeste,0.04
+LOC10,CE,Fortaleza,Nordeste,0.03

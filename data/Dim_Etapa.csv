@@ -1,0 +1,14 @@
+﻿ID_Etapa,Ordem_Etapa,Etapa,Macro_Etapa
+ETAPA01,1,Levantamento inicial,Entrada
+ETAPA02,2,Análise técnica,Análise
+ETAPA03,3,Coleta de documentos,Análise
+ETAPA04,4,Desenvolvimento do projeto,Desenvolvimento
+ETAPA05,5,Revisao interna,Desenvolvimento
+ETAPA06,6,Protocolo,Protocolo
+ETAPA07,7,Analise da concessionaria,Aprovação
+ETAPA08,8,Adequações,Aprovação
+ETAPA09,9,Aprovação,Aprovação
+ETAPA10,10,Execução,Execução
+ETAPA11,11,Vistoria,Execução
+ETAPA12,12,Comissionamento,Conclusão
+ETAPA13,13,Encerramento,Conclusão

@@ -1,0 +1,12 @@
+﻿ID_Status,Status,Status_Simplificado_Base
+STAT01,Não iniciado,ABERTO
+STAT02,Em análise,ABERTO
+STAT03,Em desenvolvimento,ABERTO
+STAT04,Em aprovação,ABERTO
+STAT05,Aguardando cliente,ABERTO
+STAT06,Aguardando concessionária,ABERTO
+STAT07,Em execução,ABERTO
+STAT08,Em comissionamento,ABERTO
+STAT09,Concluído,CONCLUÍDO
+STAT10,Suspenso,SUSPENSO
+STAT11,Cancelado,CANCELADO

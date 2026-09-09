@@ -1,0 +1,6 @@
+1. No LinkedIn, abra Adicionar seção do perfil.
+2. Escolha Projetos.
+3. Use o título Dashboard de Gestão de Projetos Elétricos.
+4. Informe a URL do GitHub Pages ou do repositório.
+5. Use o texto de 01_PROJETO_LINKEDIN.txt.
+6. Publique as imagens de capa e arte quadrada.
