@@ -1,4 +1,4 @@
-Repositório: https://github.com/renovera1/electrical-project-management-dashboard
-Dashboard: https://renovera1.github.io/electrical-project-management-dashboard/
+Repositório: https://github.com/luscaarmstrong1/electrical-project-management-dashboard
+Dashboard: https://luscaarmstrong1.github.io/electrical-project-management-dashboard/
 Excel: dashboard_data.xlsx
 Resumo JSON: outputs/resumo_portfolio.json

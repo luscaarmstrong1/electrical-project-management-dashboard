@@ -10,7 +10,7 @@ Principais números:
 - Projetos atrasados: 51
 - Pendências registradas: 163
 
-Repositório: https://github.com/renovera1/electrical-project-management-dashboard
-Dashboard: https://renovera1.github.io/electrical-project-management-dashboard/
+Repositório: https://github.com/luscaarmstrong1/electrical-project-management-dashboard
+Dashboard: https://luscaarmstrong1.github.io/electrical-project-management-dashboard/
 
 #PowerBI #Python #DAX #EngenhariaEletrica #GestaoDeProjetos #BusinessIntelligence #DataAnalytics

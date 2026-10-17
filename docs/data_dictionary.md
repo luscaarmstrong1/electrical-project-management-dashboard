@@ -29,7 +29,7 @@
 | Dim_Localidade | Regiao | str | Regiao | Sudeste |
 | Dim_Localidade | Peso_Carteira | float64 | Peso carteira | 0.34 |
 | Dim_Responsavel | ID_Responsavel | str | Id responsavel | RESP01 |
-| Dim_Responsavel | Responsavel | str | Responsavel | Lucas Almeida |
+| Dim_Responsavel | Responsavel | str | Responsavel | Lucas Silva Santos |
 | Dim_Responsavel | Cargo | str | Cargo | Engenheiro de Projetos |
 | Dim_Responsavel | Squad | str | Squad | Projetos |
 | Dim_Status | ID_Status | str | Id status | STAT01 |

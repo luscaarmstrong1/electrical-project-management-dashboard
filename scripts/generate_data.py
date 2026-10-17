@@ -120,7 +120,7 @@ def build_dimensions() -> dict[str, pd.DataFrame]:
     })
 
     responsaveis = [
-        ("Lucas Almeida", "Engenheiro de Projetos"),
+        ("Lucas Silva Santos", "Engenheiro de Projetos"),
         ("Mariana Costa", "Engenheira Eletricista"),
         ("Rafael Martins", "Analista de Projetos"),
         ("Gabriel Oliveira", "Projetista"),

@@ -26,8 +26,8 @@ LINKEDIN = ROOT / "linkedin"
 WEB = ROOT / "web"
 OUTPUTS = ROOT.parent / "outputs"
 REFERENCE_DATE = pd.Timestamp("2026-09-08")
-REPO_URL = "https://github.com/renovera1/electrical-project-management-dashboard"
-DASHBOARD_URL = "https://renovera1.github.io/electrical-project-management-dashboard/"
+REPO_URL = "https://github.com/luscaarmstrong1/electrical-project-management-dashboard"
+DASHBOARD_URL = "https://luscaarmstrong1.github.io/electrical-project-management-dashboard/"
 
 COLORS = {
     "green": "12372A",
@@ -689,7 +689,7 @@ Todos os dados são sintéticos e fictícios. Não há clientes, protocolos, doc
 
 ## Autor
 
-Lucas Almeida
+Lucas Silva Santos
 """
     (ROOT / "README.md").write_text(readme, encoding="utf-8")
     (ROOT / "README_PT-BR.md").write_text("# README em Português\n\nO README principal já está em português do Brasil: [README.md](README.md).\n", encoding="utf-8")
@@ -704,7 +704,7 @@ def write_web() -> None:
 def write_scripts() -> None:
     (ROOT / "ATUALIZAR_TUDO.bat").write_text('@echo off\nsetlocal\ncd /d "%~dp0"\npython scripts\\finalizar_projeto.py\npause\n', encoding="utf-8")
     (ROOT / "INICIAR_DASHBOARD.bat").write_text('@echo off\nsetlocal\ncd /d "%~dp0web"\necho Abrindo dashboard em http://localhost:8000\nstart "Dashboard Projetos Eletricos" /min python -m http.server 8000\ntimeout /t 2 /nobreak >nul\nstart "" "http://localhost:8000"\n', encoding="utf-8")
-    (ROOT / "PUBLICAR_NO_GITHUB.bat").write_text('@echo off\nsetlocal\ncd /d "%~dp0"\ncall ATUALIZAR_TUDO.bat\ngit init\ngit branch -M main\ngit add .\ngit commit -m "Finaliza dashboard de gestao de projetos eletricos" || echo Nada novo para commit.\ngh repo view renovera1/electrical-project-management-dashboard >nul 2>&1 || gh repo create renovera1/electrical-project-management-dashboard --public --source=. --remote=origin\ngit remote get-url origin >nul 2>&1 || git remote add origin https://github.com/renovera1/electrical-project-management-dashboard.git\ngit push -u origin main\ngh pages deploy web --repo renovera1/electrical-project-management-dashboard --branch gh-pages\necho.\necho Repositorio: https://github.com/renovera1/electrical-project-management-dashboard\necho Dashboard: https://renovera1.github.io/electrical-project-management-dashboard/\npause\n', encoding="utf-8")
+    (ROOT / "PUBLICAR_NO_GITHUB.bat").write_text('@echo off\nsetlocal\ncd /d "%~dp0"\ncall ATUALIZAR_TUDO.bat\ngit init\ngit branch -M main\ngit add .\ngit commit -m "Finaliza dashboard de gestao de projetos eletricos" || echo Nada novo para commit.\ngh repo view renovera1/electrical-project-management-dashboard >nul 2>&1 || gh repo create renovera1/electrical-project-management-dashboard --public --source=. --remote=origin\ngit remote get-url origin >nul 2>&1 || git remote add origin https://github.com/luscaarmstrong1/electrical-project-management-dashboard.git\ngit push -u origin main\ngh pages deploy web --repo renovera1/electrical-project-management-dashboard --branch gh-pages\necho.\necho Repositorio: https://github.com/luscaarmstrong1/electrical-project-management-dashboard\necho Dashboard: https://luscaarmstrong1.github.io/electrical-project-management-dashboard/\npause\n', encoding="utf-8")
 
 
 def write_reports(summary: dict[str, object], github_status: str = "Aguardando publicação") -> None:
