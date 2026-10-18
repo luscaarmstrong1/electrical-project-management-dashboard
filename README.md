@@ -1,105 +1,203 @@
-# Dashboard de Gestão de Projetos Elétricos & Homologação
-### *Electrical Engineering Project Management Dashboard*
+# Gestão de Projetos Elétricos & Governança PMO
 
-[![Simulador Online](https://img.shields.io/badge/Simulador_Interativo-GitHub_Pages-D3A15C?style=for-the-badge&logo=github)](https://luscaarmstrong1.github.io/electrical-project-management-dashboard/)
-[![Portfólio Lucas Santos](https://img.shields.io/badge/Portf%C3%B3lio-Lucas_Santos-071827?style=for-the-badge&logo=vercel)](https://lucas-santos-portfolio-zeta.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas_Silva_Santos-102B42?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/lucasssantos1/)
-[![Python](https://img.shields.io/badge/Python-Engenharia_%26_Dados-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/luscaarmstrong1/electrical-project-management-dashboard)
+> **Camada 07 do Ecossistema de Engenharia Interativa V3 • Engenharia PMO • Homologação • Caminho Crítico • SLA**  
+> Simulador de capacidade de engenharia, fluxo de aprovação em concessionárias, caminho crítico (Kanban/Gantt) e indicadores SPI/CPI sobre carteira de 200 projetos (93,05 MW / R$ 412,77 milhões).
 
-> **Camada 07 • Ecossistema de Engenharia, Energia, Dados & Automação**
-> Controle executivo de carteira de projetos elétricos e fotovoltaicos (GD/MT): prazos regulatórios ANEEL/PRODIST, pareceres de acesso, ARTs, margens e gargalos.
-
----
-
-## Acesse o Simulador Interativo e Demonstração Online
-
-- **Simulador Paramétrico Web (GitHub Pages):** [https://luscaarmstrong1.github.io/electrical-project-management-dashboard/](https://luscaarmstrong1.github.io/electrical-project-management-dashboard/)
-- **Vitrine no Portfólio Principal:** [https://lucas-santos-portfolio-zeta.vercel.app/#arquitetura](https://lucas-santos-portfolio-zeta.vercel.app/#arquitetura)
+[![GitHub Pages Status](https://img.shields.io/badge/GitHub%20Pages-Online%20V3-36D399?style=for-the-badge&logo=github)](https://luscaarmstrong1.github.io/electrical-project-management-dashboard/)
+[![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20JavaScript%20ES6%20%7C%20SVG%20Engine-38BDF8?style=for-the-badge)](https://github.com/luscaarmstrong1/electrical-project-management-dashboard)
+[![Demo Interativa](https://img.shields.io/badge/Demo%20Ao%20Vivo-Abrir%20Simulador-D3A15C?style=for-the-badge)](https://luscaarmstrong1.github.io/electrical-project-management-dashboard/)
+[![Portfólio Principal](https://img.shields.io/badge/Portf%C3%B3lio-lucassantos.eng.br-0D2236?style=for-the-badge)](https://lucassantos.eng.br/#arquitetura)
+[![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-C8D1DA?style=for-the-badge)](https://github.com/luscaarmstrong1/electrical-project-management-dashboard)
 
 ---
 
-## Visão Geral e Problema de Engenharia
+## 1. Resumo Executivo
 
-Plataforma de Business Intelligence e gestão operacional de carteiras de projetos elétricos (GD, Média Tensão e Subestações): controle de prazos PRODIST, emissão de ART, pareceres de acesso, gargalos e KPIs financeiros.
+Este repositório integra o ecossistema de **Engenharia Interativa V3** de **Lucas Santos**, combinando modelagem física e técnico-econômica em Python com um **Simulador Web Interativo publicado no GitHub Pages** ([https://luscaarmstrong1.github.io/electrical-project-management-dashboard/](https://luscaarmstrong1.github.io/electrical-project-management-dashboard/)).
 
-### Indicadores-Chave do Projeto (Caso-Base)
-
-| Indicador Técnico | Resultado / Escopo | Detalhamento de Engenharia |
-| :--- | :--- | :--- |
-| **Carteira Monitorada** | `7Dimensões BI` | Executiva, Prazos, Engenharia e Finanças |
-| **Fluxo Regulatório** | `PRODIST Mód. 3` | Solicitação, Parecer, Obras e Vistoria |
-| **Controle de Riscos** | `SLA & Gargalos` | Triagem de reprovações e inversão de fluxo |
-| **Rastreabilidade** | `100% Auditável` | ART, documentação técnica e margem |
+- **Rastreabilidade dos Dados e Modelo:** Carteira de referência de 200 projetos elétricos (93,05 MW e R$ 412,77M em obras e pareceres de acesso).
+- **Aplicação Web Autônoma:** Executa integralmente no navegador sem dependências externas frágeis, com validação de fronteira, comparador multicenário e exportação técnica (CSV, SVG e Relatório PDF).
 
 ---
 
-## Arquitetura do Sistema e Fluxo de Modelagem
+## 2. Problema de Engenharia Abordado
 
-1. **Etapa 01:** Estruturação da Base de Operações (Cadastro de projetos BT/MT, concessionárias, prazos regulatórios e ARTs)
-2. **Etapa 02:** Indicadores de Engenharia & Regulação (Lead time de parecer de acesso, taxa de retrabalho e pendências de campo)
-3. **Etapa 03:** Modelagem Financeira por Projeto (Orçado vs. Realizado, custo de hora-técnica e rentabilidade por porte)
-4. **Etapa 04:** Painel Web Interativo & Power BI (7 visões gerenciais com filtros dinâmicos por status, concessionária e engenheiro)
+Carteiras de engenharia elétrica e conexão de usinas sofrem gargalos severos nas etapas de Parecer de Acesso, revisão de projetos de proteção/subestação e vistoria final da concessionária. O acúmulo de pendências técnicas degrada o SPI (Schedule Performance Index) e posterga a entrada em operação comercial.
 
 ---
 
-## Fundamentação Física, Matemática e Regulatória
+## 3. Solução Proposta
 
-### 1. Índice de Cumprimento de Prazo (On-Time Delivery)
+Este simulador modela a capacidade produtiva do time de engenharia e das equipes de campo frente ao SLA das concessionárias e à taxa de retrabalho técnico, permitindo simular o ganho de prazo (Lead Time), entregas no prazo (On-Time Delivery), SPI e CPI.
+
+---
+
+## 4. Funcionalidades Principais da Aplicação Interativa (V3)
+
+1. **Painel Paramétrico Sincronizado (Slider + Input Numérico):** Controles duplos bidirecionais agrupados por domínio físico, operacional e econômico, com validação contra valores inválidos (`NaN`, `Infinity` ou fora de faixa).
+2. **Motor Matemático Determinístico Auditado:** Recálculo instantâneo de todos os indicadores-chave (KPIs), balanços energéticos e séries temporais/financeiras.
+3. **Múltiplas Visualizações Gráficas em Alta Nitidez (SVG):** Abas dedicadas com gráficos vetoriais responsivos e tooltips informativos.
+4. **Comparador Multicenário Lado a Lado:** Comparação simultânea entre **Caso-Base**, **Conservador**, **Provável**, **Otimista** e a **Simulação Atual** do usuário.
+5. **Diagnóstico Técnico Automatizado:** Geração dinâmica de alertas operacionais e recomendações de engenharia conforme os parâmetros configurados.
+6. **Exportação e Compartilhamento:**
+   - **Compartilhar Link:** Codifica todos os parâmetros na URL (`?param=valor`) para reprodutibilidade exata.
+   - **Exportar CSV:** Download imediato da tabela de memória de cálculo.
+   - **Exportar Gráfico SVG:** Download vetorial do gráfico ativo.
+   - **Relatório PDF:** Folha de estilo dedicada para impressão técnica.
+
+---
+
+## 5. Demonstração Visual (Captura Real V3)
+
+![Screenshot Real do Simulador V3](./docs/assets/v3-preview.png)
+
+- **Acesse o Simulador Interativo:** [https://luscaarmstrong1.github.io/electrical-project-management-dashboard/](https://luscaarmstrong1.github.io/electrical-project-management-dashboard/)
+- **Voltar à Seção #arquitetura no Portfólio:** [https://lucassantos.eng.br/#arquitetura](https://lucassantos.eng.br/#arquitetura)
+
+---
+
+## 6. Arquitetura Técnica e Fluxo de Dados
+
 ```text
-OTD (%) = (Projetos_Homologados_Dentro_SLA / Total_Projetos_Concluídos) × 100
+[Parâmetros do Usuário / Presets de Cenário]
+                 │
+                 ▼
+[Validação de Fronteira & Normalização Física]
+                 │
+                 ▼
+[Motor Matemático Determinístico (Python & JS Engine V3)]
+                 │
+     ┌───────────┼───────────┐
+     ▼           ▼           ▼
+[KPI Cards] [Gráficos SVG] [Matriz Multicenário & Exportação CSV/PDF]
 ```
 
-### 2. Potência Total em Carteira (MWp)
+---
+
+## 7. Metodologia e Equações Governantes
+
+### 9.1. Lead Time de Caminho Crítico com Retrabalho e Capacidade
+
 ```text
-P_Carteira = Σ P_i(kWp) / 1000  [Segmentada por BT, MT e Subestação]
+T_total = Σ_k [ T_base,k / (Cap_efetiva)^α ] + Penalidade_SLA + Taxa_Pendência * T_reanalise
 ```
 
-### 3. Margem Operacional de Engenharia
+Modela o impacto não-linear da saturação das equipes de projeto/obra e dos ciclos extras de reprovação em concessionárias.
+
+### 9.2. Indicadores de Valor Agregado (SPI e CPI)
+
 ```text
-Margem (%) = [(Receita_Projetos - Custo_HH_Engenharia - Taxas_ART_CREA) / Receita_Projetos] × 100
+SPI = EV / PV ≈ Prazo_Meta / Lead_Time_Real   |   CPI = EV / AC
+```
+
+Métricas clássicas de governança PMO (PMBOK) para monitoramento de desempenho de cronograma e orçamento.
+
+---
+
+## 8. Premissas e Limitações do Modelo
+
+- **Escopo Analítico:** Os resultados constituem estudos preliminares de engenharia e viabilidade técnico-econômica. Projetos executivos requerem medições locais de campanha, estudos de curto-circuito/coordenação de proteção e parecer formal da concessionária ou ONS/CCEE.
+- **Conservação Física:** Nenhuma eficiência excede 100%, nenhum despacho de bateria viola `[SOC_min, SOC_max]` e todas as séries respeitam limites físicos estritos.
+
+---
+
+## 9. Parâmetros de Entrada e Faixas Aceitas
+
+| Parâmetro | Unidade | Faixa Permitida | Valor Padrão | Descrição Técnica |
+|---|---|---|---|---|
+| **Projetos na Carteira Ativa** (`totalProjetos`) | projetos | [20 a 600] | `200` | Total de empreendimentos elétricos gerenciados pelo PMO. |
+| **Capacidade de Engenharia (Projetistas)** (`engEquipe`) | engenheiros | [4 a 45] | `14` | Engenheiros eletricistas dedicados a projetos e estudos de proteção. |
+| **Equipes de Montagem e Comissionamento** (`equipesCampo`) | equipes | [4 a 60] | `18` | Frentes de obra para execução eletromecânica e testes. |
+| **Aderência das Concessionárias ao SLA** (`slaConcessionariaPct`) | % | [40 a 100] | `85` | Percentual de pareceres e vistorias emitidos dentro do prazo regulatório. |
+| **Taxa de Reanálise / Pendência Técnica** (`taxaPendenciaPct`) | % | [2 a 50] | `18` | Proporção de projetos que sofrem reprovação documental ou técnica na 1ª submissão. |
+| **Meta Corporativa de Lead Time (SLA)** (`metaPrazoDias`) | dias | [45 a 180] | `90` | Prazo alvo ponta a ponta desde a abertura até a ligação. |
+| **Reserva de Contingência Orçamentária** (`contingenciaPct`) | % | [0 a 25] | `8` | Margem financeira para absorver variações de materiais e escopo. |
+
+---
+
+## 10. Indicadores de Saída (KPIs Explicados)
+
+| Indicador (KPI) | Unidade | Interpretação de Engenharia |
+|---|---|---|
+| **Carteira Total** (`totalProjetos`) | projetos | Empreendimentos sob gestão do PMO |
+| **Potência Total da Carteira** (`portfolioMw`) | MW | Capacidade elétrica agregada |
+| **Valor Econômico (CAPEX)** (`portfolioValueM`) | R$ mi | Volume financeiro gerenciado |
+| **Lead Time Médio Ponta a Ponta** (`avgLeadTimeDays`) | dias | Ciclo completo até comissionamento |
+| **Entregas no Prazo (On-Time)** (`onTimePct`) | % | Projetos concluídos dentro da meta SLA |
+| **Projetos com Atraso Crítico** (`delayedProjects`) | projetos | Obras impactadas por fila ou pendência |
+| **SPI (Índice de Prazo)** (`spi`) | adim. | Schedule Performance Index (meta >= 1,00) |
+| **CPI (Índice de Custo)** (`cpi`) | adim. | Cost Performance Index (meta >= 1,00) |
+
+---
+
+## 11. Estrutura de Diretórios do Repositório
+
+```text
+electrical-project-management-dashboard/
+├── docs/                       # Aplicação Web Interativa V3 (GitHub Pages)
+│   ├── index.html              # Interface completa com esquemático SVG e seções técnicas
+│   ├── simulator.css           # Design System Dark Technical Navy + Copper Gold V3
+│   ├── simulator.js            # Motor matemático JS auditado + renderizador gráfico SVG
+│   └── assets/
+│       └── v3-preview.png      # Captura real da interface V3 em 1440x900
+├── src/                        # Módulos Python de engenharia, simulação e pipeline de dados
+├── data/                       # Datasets de referência, séries curadas e saídas analíticas
+├── tests/                      # Testes automatizados de consistência matemática
+└── README.md                   # Documentação técnica completa (18 seções)
 ```
 
 ---
 
-## Painéis Analíticos e Evidências Visuais
+## 12. Como Executar Localmente
 
-### Visão Executiva da Carteira de Engenharia
-![Visão Executiva da Carteira de Engenharia](assets/screenshots/executive_overview.png)
-
-### Controle de Prazos e SLA de Homologação
-![Controle de Prazos e SLA de Homologação](assets/screenshots/deadlines.png)
-
-### Produtividade Técnica, ARTs e Revisões
-![Produtividade Técnica, ARTs e Revisões](assets/screenshots/engineering.png)
-
-### Funil Operacional e Etapas de Conexão
-![Funil Operacional e Etapas de Conexão](assets/screenshots/operations.png)
-
----
-
-## Como Executar Localmente
+### 12.1. Simulador Web Interativo (Zero Dependências)
 
 ```bash
-# 1. Clone o repositório
 git clone https://github.com/luscaarmstrong1/electrical-project-management-dashboard.git
 cd electrical-project-management-dashboard
-
-# 2. Instale as dependências e execute a suíte analítica
-pip install -r requirements.txt
-python scripts/generate_data.py
-python scripts/build_project_assets.py
+npx serve docs
 ```
 
-> **Nota Técnica:** Este projeto utiliza modelagem determinística auditável e séries sintéticas estruturadas para demonstração de arquitetura de engenharia elétrica, ciência de dados e tomada de decisão técnico-econômica. Não substitui projeto executivo, parecer de acesso da concessionária ou emissão de ART específica de campo.
+Ou abra `docs/index.html` em qualquer servidor HTTP estático local.
+
+### 12.2. Pipeline Analítico em Python
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+pytest
+```
 
 ---
 
-## Autor e Responsável Técnico
+## 13. Como Executar os Testes Automatizados
 
-**Lucas Silva Santos**
-*Engenheiro Eletricista & Gerente de Projetos*
-Energia • Dados • Inteligência Artificial • Automação • São João da Boa Vista, SP • Itajubá, MG
+- **Validação Matemática e de Fronteira:** Verifica ausência de `NaN`/`Infinity`, conservação de energia, monotonia econômica e casos analíticos de referência.
+- **Validação E2E e Responsiva (Playwright):** Verifica 0 erros de console, atualização dinâmica de KPIs e gráficos e 0px de overflow horizontal em `320x568`, `390x844`, `768x1024`, `1024x768` e `1440x900`.
 
-- **Portfólio:** [https://lucas-santos-portfolio-zeta.vercel.app/](https://lucas-santos-portfolio-zeta.vercel.app/)
-- **LinkedIn:** [linkedin.com/in/lucasssantos1](https://www.linkedin.com/in/lucasssantos1/)
-- **GitHub:** [@luscaarmstrong1](https://github.com/luscaarmstrong1)
+---
+
+## 14. Casos de Uso Práticos
+
+1. **Estudos Preliminares de Engenharia e Propostas Técnicas:** Avaliação rápida de sensibilidade junto a clientes industriais e comerciais.
+2. **Auditoria de Premissas Técnico-Econômicas:** Comparação transparente entre cenários conservadores, prováveis e otimistas.
+3. **Demonstração de Competência Multidisciplinar:** Integração real entre engenharia elétrica, regulação, ciência de dados e desenvolvimento full-stack.
+
+---
+
+## 15. Próximas Evoluções Técnicas
+
+- Integração via API REST com séries meteorológicas INMET/NSRDB e dados horários CCEE/ONS em tempo real.
+- Otimização estocástica via Monte Carlo para quantificação de VaR (Value at Risk) energético.
+
+---
+
+## 16. Autor e Contato Profissional
+
+**Lucas Santos**  
+*Engenheiro Eletricista • Sistemas de Potência, Energias Renováveis, Dados & Software*
+
+- **Portfólio Principal:** [https://lucassantos.eng.br](https://lucassantos.eng.br)
+- **Seção de Engenharia Interativa:** [https://lucassantos.eng.br/#arquitetura](https://lucassantos.eng.br/#arquitetura)
+- **GitHub:** [https://github.com/luscaarmstrong1](https://github.com/luscaarmstrong1)
